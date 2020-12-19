@@ -41,4 +41,7 @@ Route::get('/user',[UserController::class,'index'])->name('user')->middleware('u
 //});
 
 Route::get('/dashboard',[UserDashboardController::class, 'index'])->middleware('auth');
-Route::get('/userprofile',[UserProfileController::class, 'index'])->middleware('auth');
+
+Route::group(['middleware'=>['web','auth']], function() {
+    Route::resource('/userprofile', UserProfileController::class);
+});

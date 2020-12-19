@@ -61,4 +61,7 @@
 
     </div>
 </header>
+
+@yield('content')
+
 @include('public-section.partials._footer')

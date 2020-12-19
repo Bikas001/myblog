@@ -10,6 +10,7 @@ class UserDashboardController extends Controller
 
 
     public function index(){
+
         return view('public-section.dashboard');
 
     }
