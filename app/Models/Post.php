@@ -8,4 +8,16 @@ use Illuminate\Database\Eloquent\Model;
 class Post extends Model
 {
     use HasFactory;
+
+
+    protected $fillable =[
+        'title',
+        'content',
+        'user_id',
+    ];
+
+    public function images(){
+        return $this->morphToMany('App\Models\Image','imageable');
+    }
+
 }

@@ -1,8 +1,13 @@
 <?php
 
+use App\Http\Controllers\UserDashboardController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\UserProfileController;
+use App\Models\User;
+use App\Models\Image;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -25,3 +30,15 @@ Auth::routes();
 
 Route::get('/admin',[AdminController::class,'index'])->name('admin')->middleware('admin');
 Route::get('/user',[UserController::class,'index'])->name('user')->middleware('user');
+//
+//Route::get('/posts', function (){
+//    $post=\App\Models\Post::create(['title'=>'first post','content'=>'this was the first conetnt','user_id'=>'1']);
+//
+//    $user=User::find(1);
+//  echo $img=Image::find(1);
+//
+//    $user->images()->save($img);
+//});
+
+Route::get('/dashboard',[UserDashboardController::class, 'index'])->middleware('auth');
+Route::get('/userprofile',[UserProfileController::class, 'index'])->middleware('auth');

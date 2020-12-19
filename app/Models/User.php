@@ -47,6 +47,10 @@ class User extends Authenticatable
         return $this->belongsTo('App\Models\Role');
     }
 
+    public function images(){
+        return $this->morphToMany('App\Models\Image','imageable');
+    }
+
     public function isAdmin(){
         if($this->role->name == 'Admin'){
             return true;
