@@ -64,4 +64,7 @@
 
 @yield('content')
 
+
+@include('public-section.partials._footerContactSection')
+
 @include('public-section.partials._footer')

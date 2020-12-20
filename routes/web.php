@@ -45,3 +45,4 @@ Route::get('/dashboard',[UserDashboardController::class, 'index'])->middleware('
 Route::group(['middleware'=>['web','auth']], function() {
     Route::resource('/userprofile', UserProfileController::class);
 });
+Route::post('/sendmessage', [\App\Http\Controllers\MessageController::class,'store']);

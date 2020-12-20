@@ -2,9 +2,7 @@
 
 @section('content')
     <style>
-        .user-details{
-            margin-top: 100px;
-        }
+
     </style>
 <div></div>
     <div class="container">
@@ -31,4 +29,12 @@
 
     </div>
 
+
+
+
+
 @endsection
+
+
+
+
