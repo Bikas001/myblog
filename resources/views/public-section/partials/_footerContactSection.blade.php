@@ -24,11 +24,11 @@
                     </div>
                     <div class="col-md-4 info">
                         <i class="ion-ios-email-outline"></i>
-                        <p>info@example.com</p>
+                        <p>info@cbikas.com.np</p>
                     </div>
                     <div class="col-md-3 info">
                         <i class="ion-ios-telephone-outline"></i>
-                        <p>9876789056</p>
+                        <p>9845969704</p>
                     </div>
                 </div>
 

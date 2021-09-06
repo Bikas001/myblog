@@ -3,7 +3,7 @@
 
         <div class="logo float-left">
 
-            <a href="#intro" class="scrollto"><a href="#about">ALPHA</a></a>
+            <a href="#intro" class="scrollto"><a href="#about">Vxsoft</a></a>
         </div>
 
         <nav class="main-nav float-right d-none d-lg-block">

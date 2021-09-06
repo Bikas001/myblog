@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
-    <title>Alpha </title>
+    <title>Bikas chaudhary </title>
     <!-- add icon link -->
     <link rel = "icon" href =
     "https://icon-library.com/images/online-icon/online-icon-20.jpg"

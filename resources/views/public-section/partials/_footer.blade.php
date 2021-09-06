@@ -8,7 +8,7 @@
             <div class="row">
 
                 <div class="col-lg-4 col-md-6 footer-info">
-                    <h3>ALPHA</h3>
+                    <h3>Vxsoft</h3>
                     <p>Want to develop a product? Get end-to-end product development from one of the top web development companies. We can assist you from product’s ideation and prototyping to development and management</p>
                 </div>
 
@@ -66,20 +66,18 @@
     </div>
 </footer>
 
+<div id='tawk_60eee5d1649e0a0a5ccc2ee6'></div>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date(); Tawk_API.embedded='tawk_60eee5d1649e0a0a5ccc2ee6';
     (function(){
-        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-        s1.async=true;
-        s1.src='https://embed.tawk.to/5afd60075f7cdf4f05344d8c/default';
-        s1.charset='UTF-8';
-        s1.setAttribute('crossorigin','*');
-        s0.parentNode.insertBefore(s1,s0);
-    })();
-</script>
-<!--End of Tawk.to Script-->
-<!--End of Tawk.to Script-->
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/60eee5d1649e0a0a5ccc2ee6/1ferds19j';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);})();
+    </script>
 
 <!-- #footer -->
 

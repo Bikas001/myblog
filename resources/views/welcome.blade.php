@@ -275,7 +275,7 @@
 
                 </div>
 
-                <div class="row counters">
+                {{-- <div class="row counters">
 
                     <div class="col-lg-3 col-6 text-center">
                         <span data-toggle="counter-up">274</span>
@@ -297,7 +297,7 @@
                         <p>Hard Workers</p>
                     </div>
 
-                </div>
+                </div> --}}
 
             </div>
         </section>
@@ -459,7 +459,7 @@
         <!--==========================
           Clients Section
         ============================-->
-        <section id="testimonials" class="section-bg">
+        {{-- <section id="testimonials" class="section-bg">
             <div class="container">
 
                 <header class="section-header">
@@ -532,7 +532,7 @@
 
 
             </div>
-        </section><!-- #testimonials -->
+        </section><!-- #testimonials --> --}}
 
         <!--==========================
           Team Section
@@ -546,7 +546,7 @@
 
                 <div class="row">
 
-                    <div class="col-lg-3 col-md-6 wow fadeInUp">
+                    {{-- <div class="col-lg-3 col-md-6 wow fadeInUp">
                         <div class="member">
                             <img src="{{asset('profile/img/team-2.jpg')}}" class="img-fluid" alt="">
                             <div class="member-info">
@@ -562,25 +562,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="member">
-                            <img src="{{asset('profile/img/team-2.jpg')}}" class="img-fluid" alt="">
-                            <div class="member-info">
-                                <div class="member-info-content">
-                                    <h4>Nischal shrestha</h4>
-                                    <span>Product Manager</span>
-                                    <div class="social">
-                                        <a href=""><i class="fa fa-twitter"></i></a>
-                                        <a href=""><i class="fa fa-facebook"></i></a>
-                                        <a href=""><i class="fa fa-google-plus"></i></a>
-                                        <a href=""><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                
 
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="member">
@@ -589,18 +573,19 @@
                                 <div class="member-info-content">
                                     <h4>Bikash chaudhary</h4>
                                     <span>CTO</span>
+                                    <span>full-stack Developer</span>
                                     <div class="social">
-                                        <a href=""><i class="fa fa-twitter"></i></a>
-                                        <a href=""><i class="fa fa-facebook"></i></a>
-                                        <a href=""><i class="fa fa-google-plus"></i></a>
-                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                
+                                        <a href="https://www.facebook.com/vxbikas"><i class="fa fa-facebook"></i></a>
+                                        <a href="https://github.com/Bikas001"><i class="fa fa-github"></i></a>
+                                        <a href="https://www.linkedin.com/in/bikas-chaudhary-tharu-24aaa015b/"><i class="fa fa-linkedin"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    {{-- <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="member">
                             <img src="{{asset('profile/img/team-4.jpg')}}" class="img-fluid" alt="">
                             <div class="member-info">
@@ -616,7 +601,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
                 </div>
 
@@ -626,7 +611,7 @@
         <!--==========================
           Clients Section
         ============================-->
-        <section id="clients" class="section-bg">
+        {{-- <section id="clients" class="section-bg">
 
             <div class="container">
 
@@ -691,7 +676,7 @@
 
             </div>
 
-        </section>
+        </section> --}}
 
 
 
